@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: #7ca9b3;
+}
+header {
+    background-position: top;
+    width: 100%;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 35 0px;
+}
+h6 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding-left: 254px;
+}
+h5 {
+    padding-left: 70px;
+    text-align: left;
+    margin: 0;
+    font-size: 40px;
+    
+}
+h4 {
+    font-size: 30px;
+    margin: 0;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+h3 {
+    padding-left: 3px;
+    font-size: 25px;
+}
+img {
+    padding-left: 3px;
+    width: 30px;
+    height: 27px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(64, 123, 123);
+    width: 500px;
+    height: 600px;
+    border-radius: 45px;
+}
+.table12 {
+    display: inline-block;
+    background-position:right;
+    background-color: #fff;
+    width: 450px;
+    height: 470px;
+    margin-bottom: 50px;
+    border: 5px solid rgb(70, 154, 141);}
+.line {
+    border-bottom: 3px solid rgb(70, 154, 141);
+}
+
+.box-title {
+    align-self: start;
+    justify-self: start;
+}
+.content {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+label {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.password-01 {
+    margin-right: 98px;
+}
+.fullname-01 {
+    margin-right: 116px;
+}
+.login-01 {
+    margin-right: 110px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    display: inline-block;
+    white-space: nowrap;
+    text-align: left;
+}
+.mytasks{
+    text-align: center;
+}
+button {
+    font-size: 15px;
+    margin-left: 34px;
+    background-color: rgb(117, 5, 117);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(165, 32, 165);
+}
+
+.return {
+    text-align: center;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+.d1 input { 
+    float: right;
+    width: 250px; 
+    height: 52px; 
+    padding-left: 10px; 
+    margin-right: 10px;
+    border: 2px solid #7BA7AB; 
+    border-radius: 5px; 
+    outline: none; 
+    color: #9E9C9C; 
+  } 

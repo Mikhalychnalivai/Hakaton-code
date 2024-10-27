@@ -1,0 +1,66 @@
+body {
+    background-color: #8AA3CF;
+    color: #000;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #8AA3CF;
+    width: 100%; 
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+h1 {
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mytasks { 
+    margin: 0;
+    text-align: center; 
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.tasks-container { 
+    width: 80%;
+    max-width: 800px;
+}
